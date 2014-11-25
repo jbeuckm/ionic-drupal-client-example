@@ -1,0 +1,18 @@
+<ion-view title="Account">
+  <ion-content class="padding">
+
+      <div ng-show="!$root.drupalService.isLoggedIn()">
+          <button class="button button-large button-positive" ng-click="showLoginForm()">
+              Login
+          </button>
+      </div>
+      
+      <div ng-show="$root.drupalService.isLoggedIn()">
+          <span>uid = {{$root.drupalService.getUid()}}</span>
+          <button class="button button-large button-positive" ng-click="logout()">
+              Logout
+          </button>
+      </div>
+      
+  </ion-content>
+</ion-view>
