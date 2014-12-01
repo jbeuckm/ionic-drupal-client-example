@@ -36,6 +36,7 @@ angular.module('drupal', ['ionic'])
                 def.resolve(user);
 
                 $rootScope.$broadcast('drupal_login', user);
+                $rootScope.$broadcast('drupal_account', user);
             },
             def.reject
         );
@@ -71,6 +72,7 @@ angular.module('drupal', ['ionic'])
 
                 }
                 def.resolve(user);
+                $rootScope.$broadcast('drupal_account', user);
             },
             function (err) {
                 console.log("ERROR connecting to drupal");
@@ -111,7 +113,7 @@ angular.module('drupal', ['ionic'])
         };
 
             myPopup = $ionicPopup.show({
-            templateUrl: 'js/drupal/templates/sign_up.html',
+            templateUrl: 'lib/ionic-drupal-client/templates/sign_up.html',
             title: 'Sign Up',
             subTitle: 'Enter your username and password.',
             scope: $scope,
@@ -158,7 +160,7 @@ angular.module('drupal', ['ionic'])
         };
 
         myPopup = $ionicPopup.show({
-            templateUrl: 'js/drupal/templates/login.html',
+            templateUrl: 'lib/ionic-drupal-client/templates/login.html',
             title: 'Login',
             subTitle: 'Enter your username and password.',
             scope: $scope,

@@ -1,0 +1,84 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'update', '-g', 'ionic' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink /usr/local/bin/node
+5 error Error: ENAMETOOLONG, mkdir '/Users/innovator/Documents/ionic-drupal-base/npm info it worked if it ends with ok
+5 error npm verb cli [ '/usr/local/bin/node',
+5 error npm verb cli   '/usr/local/bin/npm',
+5 error npm verb cli   '-g',
+5 error npm verb cli   'config',
+5 error npm verb cli   'get',
+5 error npm verb cli   'prefix' ]
+5 error npm info using npm@1.4.28
+5 error npm info using node@v0.10.33
+5 error /Applications/Titanium Studio/TitaniumStudio.app/Contents/MacOS/npm info it worked if it ends with ok
+5 error npm verb cli [ '/usr/local/bin/node',
+5 error npm verb cli   '/usr/local/bin/npm',
+5 error npm verb cli   '-g',
+5 error npm verb cli   'config',
+5 error npm verb cli   'get',
+5 error npm verb cli   'prefix' ]
+5 error npm info using npm@1.4.28
+5 error npm info using node@v0.10.33
+5 error /Applications/Titanium Studio/TitaniumStudio.app/Contents/MacOS/npm info it worked if it ends with ok
+5 error npm verb cli [ '/usr/local/bin/node',
+5 error npm verb cli   '/usr/local/bin/npm',
+5 error npm verb cli   '-g',
+5 error npm verb cli   'config',
+5 error npm verb cli   'get',
+5 error npm verb cli   'prefix' ]
+5 error npm info using npm@1.4.28
+5 error npm info using node@v0.10.33
+5 error /usr/local
+5 error npm verb exit [ 0, true ]
+5 error npm info ok
+5 error npm verb exit [ 0, true ]
+5 error npm info ok
+5 error npm verb exit [ 0, true ]
+5 error npm info ok'
+6 error If you need help, you may report this *entire* log,
+6 error including the npm and node versions, at:
+6 error     <http://github.com/npm/npm/issues>
+7 error System Darwin 14.0.0
+8 error command "node" "/usr/local/bin/npm" "update" "-g" "ionic"
+9 error cwd /Users/innovator/Documents/ionic-drupal-base
+10 error node -v v0.10.33
+11 error npm -v 1.4.28
+12 error path /Users/innovator/Documents/ionic-drupal-base/npm info it worked if it ends with ok
+12 error path npm verb cli [ '/usr/local/bin/node',
+12 error path npm verb cli   '/usr/local/bin/npm',
+12 error path npm verb cli   '-g',
+12 error path npm verb cli   'config',
+12 error path npm verb cli   'get',
+12 error path npm verb cli   'prefix' ]
+12 error path npm info using npm@1.4.28
+12 error path npm info using node@v0.10.33
+12 error path /Applications/Titanium Studio/TitaniumStudio.app/Contents/MacOS/npm info it worked if it ends with ok
+12 error path npm verb cli [ '/usr/local/bin/node',
+12 error path npm verb cli   '/usr/local/bin/npm',
+12 error path npm verb cli   '-g',
+12 error path npm verb cli   'config',
+12 error path npm verb cli   'get',
+12 error path npm verb cli   'prefix' ]
+12 error path npm info using npm@1.4.28
+12 error path npm info using node@v0.10.33
+12 error path /Applications/Titanium Studio/TitaniumStudio.app/Contents/MacOS/npm info it worked if it ends with ok
+12 error path npm verb cli [ '/usr/local/bin/node',
+12 error path npm verb cli   '/usr/local/bin/npm',
+12 error path npm verb cli   '-g',
+12 error path npm verb cli   'config',
+12 error path npm verb cli   'get',
+12 error path npm verb cli   'prefix' ]
+12 error path npm info using npm@1.4.28
+12 error path npm info using node@v0.10.33
+12 error path /usr/local
+12 error path npm verb exit [ 0, true ]
+12 error path npm info ok
+12 error path npm verb exit [ 0, true ]
+12 error path npm info ok
+12 error path npm verb exit [ 0, true ]
+12 error path npm info ok
+13 error code ENAMETOOLONG
+14 error errno 49
+15 verbose exit [ 49, true ]
